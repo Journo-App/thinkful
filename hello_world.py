@@ -1,3 +1,5 @@
+#there is a copy of this in my gdi_thinkful>Flask dir == hello_world_flask.py
+
 from flask import Flask 
 from os import environ
 
