@@ -6,16 +6,6 @@ class Bicycle(object):
 	    self.prod_cost = prod_cost
 	    self.real_cost = prod_cost * .20 + prod_cost
 
-	    # self.price = price
-
-#six types of bikes, inventory and price but where should this go? 
-
-# bianchi = Bicycle('Bianchi', 6, 450.0)
-# schwinn = Bicycle('Schwinn', 10, 100.0)
-# abici = Bicycle('Abici', 5, 300.0)
-# cinelli = Bicycle('Cinelli', 4, 400.0)
-# eagle = Bicycle('Eagle', 6, 200.0)
-# falcon = Bicycle('Falcon', 7, 930.0)
 
 #***charge customers 20% over the cost of the bikes
 
@@ -85,13 +75,13 @@ if __name__ == '__main__':
 	rock_star.inventory[schwinn.model] -= 1 
 	print (rock_star.inventory[schwinn.model])
 
-	# cyclery.print_inventory()
+	cyclery.print_inventory()
 
-	# blow_up.print_inventory()
+	blow_up.print_inventory()
 
-	# tired.print_inventory()
+	tired.print_inventory()
 
-	# cyclery.list_bicycles()
+	cyclery.list_bicycles()
 
 	#Create three customers. One customer has a budget of $200, the second $500, and the third $1000.
 
@@ -104,11 +94,11 @@ if __name__ == '__main__':
 	print ("ramona budget", ramona.budget)
 	print ("ramona budget after purchase",ramona.after_budget)
 
-# 	felicia = Customer('Felicia', 500.0)
-# 	cyclery.check_budget(felicia)
+	felicia = Customer('Felicia', 500.0)
+	cyclery.check_budget(felicia)
 
-# 	annie = Customer('Annie', 1000.0)
-# 	cyclery.check_budget(annie)
+	annie = Customer('Annie', 1000.0)
+	cyclery.check_budget(annie)
 
 # #rockstar_bikes = rock_star.list_bicycles
 # 	rock_star.list_bicycles()
