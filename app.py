@@ -9,6 +9,7 @@ import requests
 import re
 import nltk
 
+#this is what the API end points should look like
 
 #################
 # configuration #
