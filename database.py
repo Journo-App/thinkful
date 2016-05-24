@@ -1,8 +1,7 @@
 import sqlite3 as lite
 
-con = lite.connect('getting_started.db') #can this go here or does it have to be in with con: section? Postnote: my instinct to ask was right. It belongs at the top
-
-# month = raw_input('Enter a month: ')
+con = lite.connect('getting_started.db') 
+month = raw_input('Enter a month: ')
 
 with con:
 
