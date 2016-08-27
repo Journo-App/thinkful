@@ -1,4 +1,4 @@
-%matplotlib inline #stylizing the graphs
+%matplotlib inline #graphs display in the file instead of separately
 import collections
 import numpy as np 
 import scipy.stats as stats
